@@ -1,0 +1,80 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#ffdfeaf1">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <TextView android:text="@string/my_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        style="@android:style/TextAppearance.Large"
+        android:layout_margin="15dp"
+        />
+
+    <Button
+        android:text="@string/spotify_streamer"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView"
+        style="@style/appButton"
+        android:onClick="appButtonClick"
+        />
+
+    <Button
+
+        android:text="@string/scores_app"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        style="@style/appButton"
+        android:onClick="appButtonClick"
+
+        />
+
+    <Button
+        android:text="@string/library_app"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        style="@style/appButton"
+        android:onClick="appButtonClick"
+
+        />
+
+    <Button
+        android:text="@string/build_it_bigger"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        style="@style/appButton"
+        android:onClick="appButtonClick"
+
+        />
+
+    <Button
+        android:text="@string/xyz_reader"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        style="@style/appButton"
+        android:onClick="appButtonClick"
+
+        />
+
+    <Button
+        android:text="@string/capstone"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        style="@style/appButton"
+        android:onClick="appButtonClick"
+        android:background="#E65100"
+        />
+    </RelativeLayout>
+</ScrollView>
